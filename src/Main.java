@@ -11,6 +11,12 @@ public class Main {
         double pp = 3.14159265;
         //int sum = num + thousand +  bill;
         //System.out.println(sum);
+        System.out.println("Значение переменной num с типом byte равно " + num);
+        System.out.println("Значение переменной thousand с типом short равно " + thousand);
+        System.out.println("Значение переменной bill с типом int равно " + bill);
+        System.out.println("Значение переменной minus с типом long равно " + minus);
+        System.out.println("Значение переменной p с типом float равно " + p);
+        System.out.println("Значение переменной pp с типом double равно " + pp);
 
         //task 2
         float notP = 27.12f;
