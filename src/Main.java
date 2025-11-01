@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //tusk 1
+        //task 1
         byte num = 30;
         short thousand = 1000;
         int bill = 1000000;
@@ -12,7 +12,7 @@ public class Main {
         //int sum = num + thousand +  bill;
         //System.out.println(sum);
 
-        //tusk 2
+        //task 2
         float notP = 27.12f;
         long trill = 987678965549L;
         float f = 2.786f;
@@ -21,18 +21,18 @@ public class Main {
         short s2 = 27897;
         byte b = 67;
 
-        //tusk 3
+        //task 3
         byte lydmilaPavlovna = 23;
         byte annaSergeevna = 27;
         byte ekaterinaAndreevna = 30;
-        // тут вопрос не смог поставить тип данных short allSudents
-        // почемуто заставил поставить int. вопрос - почему??
+        // Тут вопрос, не смог поставить тип данных short allStudents
+        // почему-то заставил поставить int. Вопрос - почему??
         int allStudents = lydmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
         short paper = 480;
         float paperPerStudent = (float) paper / allStudents;
         System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги.");
 
-        //tusk 4
+        //task 4
         byte bottlePerMinute = 8;
         byte m20 = 20;
         short minutesInDay = 1440;
@@ -48,7 +48,7 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + productionPer3Day + " штук бутылок");
         System.out.println("За Месяц машина произвела " + productionPerMonth + " штук бутылок");
 
-        //tusk 5
+        //task 5
         byte cansOfPaints = 120;
         byte whitePaintNeedPerClass = 2;
         byte braunPaintNeedPerClass = 4;
@@ -57,7 +57,7 @@ public class Main {
         int braunPaintNeed = numberOfClasses * braunPaintNeedPerClass;
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + whitePaintNeed + " банок белой краски и " + braunPaintNeed + " банок коричневой краски.");
 
-        //tusk 6
+        //task 6
         byte banana =5;
         byte bananaWeight = 80;
         byte milkPortion100Ml = 105;
@@ -70,7 +70,7 @@ public class Main {
         float sportCocktailInKg = (float) sportCocktail/ 1000;
         System.out.println("Вес завтрака составил " + sportCocktail + " в граммах и " + sportCocktailInKg + " в килограммах.");
 
-        //tusk 7
+        //task 7
         short loseWeightNeed = 7000;
         short weightLosePerDay250 = 250;
         short weightLosePerDay500 = 500;
@@ -81,7 +81,7 @@ public class Main {
         System.out.println("При потери веса в " + weightLosePerDay500 + " гр в день потребуется " + needDayToWin500 + " дней.");
         System.out.println("При потери веса в средних значениях потребуется " + needDayToWinAverageValue + " дней.");
 
-        //tusk 8
+        //task 8
         //Маша получает 67 760 рублей в месяц.
         // Денис получает 83 690 рублей в месяц.
         //Кристина получает 76 230 рублей в месяц.
@@ -96,7 +96,7 @@ public class Main {
         int incomeDifferencePerYearKris = (increasedSalaryKris * 12) - (currentSalaryKris * 12);
         System.out.println("Маша теперь получает " + increasedSalaryMaria + " рублей. Годовой доход вырос на " + incomeDifferencePerYearMaria + " рублей");
         System.out.println("Денис теперь получает " + increasedSalaryDen + " рублей. Годовой доход вырос на " + incomeDifferencePerYearDen + " рублей");
-        System.out.println("Кристига теперь получает " + increasedSalaryKris + " рублей. Годовой доход вырос на " + incomeDifferencePerYearKris + " рублей");
+        System.out.println("Кристина теперь получает " + increasedSalaryKris + " рублей. Годовой доход вырос на " + incomeDifferencePerYearKris + " рублей");
 
 
 
